@@ -1,6 +1,9 @@
 import Image from "next/image"
+import Link from "next/link"
 import { Star, MapPin, Truck } from "lucide-react"
 import { StoreBadges } from "@/components/store-badges"
+import { buttonVariants } from "@/components/ui/button"
+import { cn } from "@/lib/utils"
 
 export function Hero() {
   return (
@@ -41,6 +44,18 @@ export function Hero() {
               <Truck className="size-4 text-primary" />
               120+ vendors in Dar
             </span>
+          </div>
+
+          <div className="mt-6">
+            <Link
+              href="/apply"
+              className={cn(
+                buttonVariants({ variant: "link" }),
+                "p-0 text-sm font-medium text-primary underline-offset-4 hover:underline"
+              )}
+            >
+              Are you a laundry business? Become a vendor →
+            </Link>
           </div>
         </div>
 

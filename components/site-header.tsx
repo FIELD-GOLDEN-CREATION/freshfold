@@ -34,6 +34,12 @@ export function SiteHeader() {
 
         <div className="flex items-center gap-2">
           <a
+            href="/apply"
+            className={cn(buttonVariants({ variant: "outline", size: "lg" }), "font-medium")}
+          >
+            Become a Vendor
+          </a>
+          <a
             href="#download"
             className={cn(buttonVariants({ size: "lg" }), "font-medium")}
           >
