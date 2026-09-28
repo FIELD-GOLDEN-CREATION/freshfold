@@ -8,6 +8,11 @@ import { cn } from "@/lib/utils"
 import { getShops } from "@/lib/api"
 import type { Shop } from "@/lib/types"
 
+function safeRating(v: number | null | undefined): string {
+  const n = typeof v === "number" && !Number.isNaN(v) ? v : 0
+  return n.toFixed(1)
+}
+
 export function Vendors() {
   const [shops, setShops] = useState<Shop[]>([])
   const [loading, setLoading] = useState(true)
@@ -91,7 +96,7 @@ export function Vendors() {
                 <div className="mt-2 flex items-center gap-1.5 text-sm">
                   <Star className="size-4 fill-accent text-accent" />
                   <span className="font-semibold text-foreground">
-                    {Number(shop.rating_avg ?? 0).toFixed(1)}
+                    {safeRating(shop.rating_avg)}
                   </span>
                   <span className="text-muted-foreground">
                     ({(shop.rating_count ?? 0).toLocaleString()} reviews)

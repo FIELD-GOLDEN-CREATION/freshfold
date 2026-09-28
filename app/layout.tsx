@@ -19,23 +19,26 @@ export const metadata: Metadata = {
   description:
     'Download the FreshFold app to book trusted laundry vendors across Dar es Salaam, pay with M-Pesa or Tigo Pesa in TZS, and get free pickup & delivery. Available on Android and iOS.',
   generator: 'v0.app',
-  icons: {
+icons: {
     icon: [
       {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
+        url: "/favicon.ico",
       },
       {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
+        url: "/icon-light-32x32.png",
+        media: "(prefers-color-scheme: light)",
       },
       {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
+        url: "/icon-dark-32x32.png",
+        media: "(prefers-color-scheme: dark)",
+      },
+      {
+        url: "/icon.svg",
+        type: "image/svg+xml",
       },
     ],
-    apple: '/apple-icon.png',
   },
+  apple: "/apple-icon.png",
 }
 
 export const viewport: Viewport = {
