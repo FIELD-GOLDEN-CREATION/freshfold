@@ -91,7 +91,7 @@ export function Vendors() {
                 <div className="mt-2 flex items-center gap-1.5 text-sm">
                   <Star className="size-4 fill-accent text-accent" />
                   <span className="font-semibold text-foreground">
-                    {shop.rating_avg?.toFixed(1) ?? "0.0"}
+                    {Number(shop.rating_avg ?? 0).toFixed(1)}
                   </span>
                   <span className="text-muted-foreground">
                     ({(shop.rating_count ?? 0).toLocaleString()} reviews)
