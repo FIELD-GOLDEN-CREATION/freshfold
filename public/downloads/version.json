@@ -1,0 +1,17 @@
+{
+  "app": "FreshFold",
+  "package": "com.laundryapp.laundry_app",
+  "versionName": "1.0.7",
+  "versionCode": 8,
+  "file": "/downloads/freshfold-v1.0.7.apk",
+  "sizeBytes": 68641145,
+  "sizeMB": "65.5",
+  "sha256File": "FA1ADE8376E301B23F477C0B6F852DB0230E0E38A67747D1C3E8AEE76318CAA7",
+  "signerSha256": "7C:43:80:BB:63:BE:06:18:8C:6E:08:B6:F8:BC:67:3C:D5:86:E5:E6:C9:AB:04:7E:3D:C4:73:D7:A5:F1:4B:4B",
+  "signerDn": "CN=FreshFold, OU=Mobile, O=FreshFold, L=Dar es Salaam, ST=Dar es Salaam, C=TZ",
+  "signedWith": "release key (not debug)",
+  "minSdk": 24,
+  "targetSdk": 36,
+  "builtAt": "2026-09-28",
+  "notes": "Release-signed APK. Safe to install: signed with private FreshFold release key, verified with apksigner. On first install enable 'Install unknown apps' for your browser when prompted."
+}

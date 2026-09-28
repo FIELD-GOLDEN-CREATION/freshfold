@@ -27,6 +27,28 @@ export function DownloadCta() {
 
             <div className="mt-8">
               <StoreBadges variant="light" />
+              <p className="mt-4 text-sm text-primary-foreground/70">
+                Android APK v1.0.7 (65.5 MB) — release-signed, safe to
+                install.{" "}
+                <a
+                  href="/downloads/freshfold-v1.0.7.apk"
+                  download="freshfold-v1.0.7.apk"
+                  className="font-semibold underline underline-offset-4 hover:text-primary-foreground"
+                >
+                  Download APK directly
+                </a>{" "}
+                ·{" "}
+                <a
+                  href="/downloads/version.json"
+                  className="underline underline-offset-4 hover:text-primary-foreground"
+                >
+                  version info (SHA-256)
+                </a>
+              </p>
+              <p className="mt-2 text-xs text-primary-foreground/60">
+                On first install, allow “Install unknown apps” for your
+                browser when prompted. iOS build coming soon.
+              </p>
             </div>
 
             <dl className="mt-12 grid grid-cols-2 gap-6 sm:grid-cols-4">
