@@ -28,11 +28,11 @@ export function DownloadCta() {
             <div className="mt-8">
               <StoreBadges variant="light" />
               <p className="mt-4 text-sm text-primary-foreground/70">
-                Android APK v1.0.7 (65.5 MB) — release-signed, safe to
+                Android APK v1.0.8 (65.5 MB) — release-signed, safe to
                 install.{" "}
                 <a
-                  href="/downloads/freshfold-v1.0.7.apk"
-                  download="freshfold-v1.0.7.apk"
+                  href="/downloads/freshfold-v1.0.8.apk"
+                  download="freshfold-v1.0.8.apk"
                   className="font-semibold underline underline-offset-4 hover:text-primary-foreground"
                 >
                   Download APK directly

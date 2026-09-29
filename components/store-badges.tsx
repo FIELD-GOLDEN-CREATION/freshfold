@@ -29,19 +29,19 @@ export function StoreBadges({ className, variant = "dark" }: StoreBadgesProps) {
         </span>
       </a>
       <a
-        href="/downloads/freshfold-v1.0.7.apk"
-        download="freshfold-v1.0.7.apk"
+        href="/downloads/freshfold-v1.0.8.apk"
+        download="freshfold-v1.0.8.apk"
         className={cn(
           "group flex items-center gap-3 rounded-xl px-5 py-3 transition-colors",
           base,
         )}
-        aria-label="Download FreshFold APK for Android (v1.0.7)"
+        aria-label="Download FreshFold APK for Android (v1.0.8)"
       >
         <Play className="size-6 shrink-0 fill-current" strokeWidth={1.5} />
         <span className="flex flex-col leading-none text-left">
           <span className="text-[11px] opacity-70">Download for Android</span>
           <span className="font-display text-base font-semibold">
-            APK v1.0.7
+            APK v1.0.8
           </span>
         </span>
       </a>
