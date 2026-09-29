@@ -4,15 +4,15 @@
   "versionName": "1.0.8",
   "versionCode": 9,
   "file": "/downloads/freshfold-v1.0.8.apk",
-  "sizeBytes": 68641141,
-  "sizeMB": "65.5",
-  "sha256File": "CE6D6D6B8447020E118B1209E47F3034F736B6874D322E8240BC1CF704DEBAC7",
-  "signerSha256": "7C:43:80:BB:63:BE:06:18:8C:6E:08:B6:F8:BC:67:3C:D5:86:E5:E6:C9:AB:04:7E:3D:C4:73:D7:A5:F1:4B:4B",
-  "signerDn": "CN=FreshFold, OU=Mobile, O=FreshFold, L=Dar es Salaam, ST=Dar es Salaam, C=TZ",
-  "signedWith": "release key (not debug)",
+  "sizeBytes": 68013649,
+  "sizeMB": "64.9",
+  "sha256File": "9A1F34B4F219E4A5C9B9AA9682D8CF7ED76922CD59975D02C3F20D692C0BC87D",
+  "signerSha256": "D0:B7:DC:20:2D:A8:F8:D6:A1:67:2E:A2:69:55:A6:50:EE:B1:D3:85:39:42:75:A7:31:AD:51:B9:1B:96:E8:96",
+  "signerDn": "CN=Laundry App, OU=Engineering, O=FIELD-GOLDEN-CREATION, C=US",
+  "signedWith": "CI release key (same key as v1.0.1 - v1.0.6)",
   "minSdk": 24,
   "targetSdk": 36,
   "builtAt": "2026-09-29",
   "changes": "Fixes a black smudge over the phone status bar (battery, wifi, signal icons) on client pages by setting explicit status bar icon brightness for edge-to-edge displays.",
-  "notes": "Release-signed APK. Safe to install: signed with the private FreshFold release key, verified with apksigner. Installs over v1.0.7. On first install enable 'Install unknown apps' for your browser when prompted."
+  "notes": "Release-signed APK built by CI. Installs directly over v1.0.5 / v1.0.6 / v1.0.7 without uninstalling. On first install enable 'Install unknown apps' for your browser when prompted."
 }
